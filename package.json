@@ -1,0 +1,34 @@
+{
+  "name": "ilatte-cli",
+  "version": "1.0.0",
+  "description": "This is a scaffold",
+  "main": "index.js",
+  "bin": {
+    "xx": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ilatte-cli", "xx", "脚手架"],
+  "author": {
+    "name": "rocen",
+    "email": "rocen9609@163.com"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.1.0",
+    "ejs": "^3.1.10",
+    "inquirer": "^10.2.2"
+  }
+}
