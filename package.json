@@ -1,7 +1,7 @@
 {
   "name": "ilatte-cli",
-  "version": "1.0.0",
-  "description": "This is a scaffold",
+  "version": "1.0.1",
+  "description": "Quickly build the scaffolding for a React application",
   "main": "index.js",
   "bin": {
     "xx": "./bin/cli.js"
@@ -9,11 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ilatte-cli", "xx", "脚手架"],
+  "keywords": ["React, ilatte-cli", "xx", "脚手架"],
   "author": {
     "name": "rocen",
-    "email": "rocen9609@163.com"
+    "email": "rocen9609@163.com",
+    "role": "Developer"
   },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Rocen/ilatte-cli"
+	},
+  "homepage": "https://github.com/Rocen/ilatte-cli",
   "files": [
     "bin",
     "lib"
@@ -30,5 +36,9 @@
     "ora": "^8.1.0",
     "ejs": "^3.1.10",
     "inquirer": "^10.2.2"
-  }
+  },
+  "browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
 }
